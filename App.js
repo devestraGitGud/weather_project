@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, ActivityIndicator } from 'react-native';
 
 const API_KEY = '85e3205ed0e54a5ead7133014251504';
 const CITY = 'Magnitogorsk';
-const URL = `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${CITY}&aqi=yes&days=3`;
+const URL = `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${CITY}&aqi=yes&lang=ru`;
 
 export default function App() {
   const [weatherData, setWeatherData] = useState(null);

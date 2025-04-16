@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, View, TextInput, Button } from 'react-native';
-import { WeatherDisplay } from './weather';
+import { WeatherDisplay } from './components/weather';
 
 const API_KEY = '85e3205ed0e54a5ead7133014251504';
 
